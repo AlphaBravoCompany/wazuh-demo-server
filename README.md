@@ -46,10 +46,10 @@ This script is for demo purposes only. It deploys a bare minimum, single-node Do
 1. Login to the Wazuh UI
 2. Select the "v" arrow next to the Wazuh logo in the upper left and select "Agents"
 3. Select "Deploy New Agents" and define the target system using the following variables:
-  - Target Operating System
-  - Architecture
-  - Wazuh Server Address - The IP or DNS Name (if you created one) of the Wazuh server
-  - Agent Group - Out of the box, only the "Default" group exists, but you can add additional groups under the dropdown "Management -> Administration -> Groups"
+    - Target Operating System
+    - Architecture
+    - Wazuh Server Address - The IP or DNS Name (if you created one) of the Wazuh server
+    - Agent Group - Out of the box, only the "Default" group exists, but you can add additional groups under the dropdown "Management -> Administration -> Groups"
 4. Copy the agent enrollment command and run against the agents you want to join the Wazuh server
 5. Copy the agent start command and run against your agents
 6. Navigate back to the "Modules Directory" and you should see your agent count reflecting the new agents you joined.
